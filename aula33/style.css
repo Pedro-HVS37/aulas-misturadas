@@ -1,0 +1,30 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 90%;
+    float: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.column::after{
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    background-color: #e2e2e2;
+}
+
+header{
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+@media screen and (max-width: 768px){
+    .column{
+        width: 100%;
+        float: none;
+    }
+}
+
